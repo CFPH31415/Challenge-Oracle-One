@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #f3f3f3;
+    font-family: Arial, sans-serif;
+    background-image: url("https://cdn.computerhoy.com/sites/navi.axelspringer.es/public/media/image/2015/10/125383-que-es-encriptacion-como-encriptar-tu-ordenador-movil-tablet.jpg?tf=3840x"); 
+    background-size: cover; /* o background-size: contain; */
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+  
+.titulo {
+    text-align: center;
+    margin-top: 2rem;
+    color: white;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 0.1rem;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .titulo:hover {
+    color: #ff6b6b;
+    text-shadow: 4px 4px 6px rgba(255, 107, 107, 0.5);
+  }
+  
+  .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    margin-right: 2rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .text-input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    outline: none;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .msg {
+    background-color: #fff;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .text-input-salida {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+    border: none;
+    border-radius: 0.25rem;
+    outline: none;
+  }
+  
+  #btn-copy {
+    background-color: #28a745;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  #btn-copy:hover {
+    background-color: #1e7e34;
+  }
+  
